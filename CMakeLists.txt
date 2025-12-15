@@ -7,4 +7,11 @@ add_executable(M_Top src/main.cpp
         include/system/Process.h
         include/system/ProcessTable.h
         src/system/ProcessTable.cpp
+        include/ui/TerminalUI.h
+        src/ui/TerminalUI.cpp
+)
+
+target_include_directories(M_Top
+        PRIVATE
+        ${PROJECT_SOURCE_DIR}/include
 )
