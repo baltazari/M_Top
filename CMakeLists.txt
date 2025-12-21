@@ -9,6 +9,8 @@ add_executable(M_Top src/main.cpp
         src/system/ProcessTable.cpp
         include/ui/TerminalUI.h
         src/ui/TerminalUI.cpp
+        include/app/Application.h
+        src/app/Application.cpp
 )
 
 target_include_directories(M_Top

@@ -3,6 +3,9 @@
 #include "system/ProcessTable.h"
 
 
-namespace {
-
+namespace ui{
+    class TerminalUI {
+    public:
+        void render(const sys::ProcessTable &table) const;
+    };
 }
